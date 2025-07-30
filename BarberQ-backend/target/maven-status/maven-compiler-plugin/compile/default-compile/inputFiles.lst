@@ -1,0 +1,16 @@
+C:\Users\conne\OneDrive\Desktop\BarberQ\BarberQ-backend\src\main\java\com\barberq\model\QueueEntry.java
+C:\Users\conne\OneDrive\Desktop\BarberQ\BarberQ-backend\src\main\java\com\barberq\dto\RegisterRequest.java
+C:\Users\conne\OneDrive\Desktop\BarberQ\BarberQ-backend\src\main\java\com\barberq\model\User.java
+C:\Users\conne\OneDrive\Desktop\BarberQ\BarberQ-backend\src\main\java\com\barberq\repository\UserRepository.java
+C:\Users\conne\OneDrive\Desktop\BarberQ\BarberQ-backend\src\main\java\com\barberq\service\UserService.java
+C:\Users\conne\OneDrive\Desktop\BarberQ\BarberQ-backend\src\main\java\com\barberq\dto\AuthResponse.java
+C:\Users\conne\OneDrive\Desktop\BarberQ\BarberQ-backend\src\main\java\com\barberq\dto\BarberLoginRequest.java
+C:\Users\conne\OneDrive\Desktop\BarberQ\BarberQ-backend\src\main\java\com\barberq\BarberqApplication.java
+C:\Users\conne\OneDrive\Desktop\BarberQ\BarberQ-backend\src\main\java\com\barberq\repository\QueueEntryRepository.java
+C:\Users\conne\OneDrive\Desktop\BarberQ\BarberQ-backend\src\main\java\com\barberq\config\SecurityConfig.java
+C:\Users\conne\OneDrive\Desktop\BarberQ\BarberQ-backend\src\main\java\com\barberq\dto\BarberRegisterRequest.java
+C:\Users\conne\OneDrive\Desktop\BarberQ\BarberQ-backend\src\main\java\com\barberq\model\Role.java
+C:\Users\conne\OneDrive\Desktop\BarberQ\BarberQ-backend\src\main\java\com\barberq\controller\GlobalExceptionHandler.java
+C:\Users\conne\OneDrive\Desktop\BarberQ\BarberQ-backend\src\main\java\com\barberq\dto\LoginRequest.java
+C:\Users\conne\OneDrive\Desktop\BarberQ\BarberQ-backend\src\main\java\com\barberq\util\JwtUtil.java
+C:\Users\conne\OneDrive\Desktop\BarberQ\BarberQ-backend\src\main\java\com\barberq\controller\AuthController.java
