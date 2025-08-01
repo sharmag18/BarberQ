@@ -37,20 +37,20 @@ function Register() {
   };
 
   return (
-    <div style={{ maxWidth: 400, margin: '2rem auto', background: '#fff', padding: '2rem', borderRadius: 8, boxShadow: '0 2px 8px #eee' }}>
+    <div className="card" style={{ maxWidth: 400, margin: '2rem auto' }}>
       <h2>Register</h2>
       <form onSubmit={handleSubmit}>
         <div style={{ marginBottom: '1rem' }}>
           <label>Name</label>
-          <input type="text" value={name} onChange={e => setName(e.target.value)} required style={{ width: '100%', padding: 8, marginTop: 4 }} />
+          <input type="text" value={name} onChange={e => setName(e.target.value)} required />
         </div>
         <div style={{ marginBottom: '1rem' }}>
           <label>Phone Number</label>
-          <input type="text" value={phone} onChange={e => setPhone(e.target.value)} required style={{ width: '100%', padding: 8, marginTop: 4 }} />
+          <input type="text" value={phone} onChange={e => setPhone(e.target.value)} required />
         </div>
-        {error && <div style={{ color: 'red', marginBottom: '1rem' }}>{error}</div>}
-        {success && <div style={{ color: 'green', marginBottom: '1rem' }}>{success}</div>}
-        <button type="submit" style={{ width: '100%', padding: 10, background: '#2d2d2d', color: '#fff', border: 'none', borderRadius: 4 }}>Register</button>
+        {error && <div style={{ color: 'var(--error)', marginBottom: '1rem' }}>{error}</div>}
+        {success && <div style={{ color: 'var(--success)', marginBottom: '1rem' }}>{success}</div>}
+        <button type="submit" className="button" style={{ width: '100%' }}>Register</button>
       </form>
     </div>
   );

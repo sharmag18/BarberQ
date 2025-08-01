@@ -6,6 +6,7 @@ C:\Users\conne\OneDrive\Desktop\BarberQ\BarberQ-backend\src\main\java\com\barber
 C:\Users\conne\OneDrive\Desktop\BarberQ\BarberQ-backend\src\main\java\com\barberq\dto\AuthResponse.java
 C:\Users\conne\OneDrive\Desktop\BarberQ\BarberQ-backend\src\main\java\com\barberq\dto\BarberLoginRequest.java
 C:\Users\conne\OneDrive\Desktop\BarberQ\BarberQ-backend\src\main\java\com\barberq\BarberqApplication.java
+C:\Users\conne\OneDrive\Desktop\BarberQ\BarberQ-backend\src\main\java\com\barberq\controller\QueueController.java
 C:\Users\conne\OneDrive\Desktop\BarberQ\BarberQ-backend\src\main\java\com\barberq\repository\QueueEntryRepository.java
 C:\Users\conne\OneDrive\Desktop\BarberQ\BarberQ-backend\src\main\java\com\barberq\config\SecurityConfig.java
 C:\Users\conne\OneDrive\Desktop\BarberQ\BarberQ-backend\src\main\java\com\barberq\dto\BarberRegisterRequest.java

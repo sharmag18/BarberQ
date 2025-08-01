@@ -1,5 +1,5 @@
 com\barberq\service\UserService.class
-com\barberq\model\User.class
-com\barberq\dto\RegisterRequest.class
 com\barberq\model\User$Builder.class
 com\barberq\repository\UserRepository.class
+com\barberq\model\User.class
+com\barberq\dto\RegisterRequest.class

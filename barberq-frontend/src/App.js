@@ -25,11 +25,6 @@ function App() {
     <ThemeProvider>
       <Router>
         <ThemeToggle />
-        <header style={{ background: 'var(--primary)', padding: '1rem 0', marginBottom: '2rem' }}>
-          <nav style={{ display: 'flex', justifyContent: 'center', gap: '2rem' }}>
-            <a href="/" style={{ color: 'var(--primary-text)', textDecoration: 'none', fontWeight: 'bold' }}>Home</a>
-          </nav>
-        </header>
         <div className="App">
           <Routes>
             <Route path="/" element={<Navigate to="/select-role" />} />

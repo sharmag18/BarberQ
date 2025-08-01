@@ -1,0 +1,41 @@
+<svg width="400" height="120" viewBox="0 0 400 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background - now uses CSS variable -->
+  <rect x="0" y="0" width="400" height="120" fill="var(--card)" class="logo-bg"/>
+  
+  <!-- BARBERQ Text - now uses CSS variable -->
+  <text x="200" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="var(--text)" class="logo-text">
+    B<tspan dy="-3" dx="2">&#x2720;</tspan>RBER<tspan dy="3" dx="2">Q</tspan>
+  </text>
+  
+  <!-- Mustache for A - now uses CSS variable -->
+  <path d="M 85 67 Q 90 57 95 67 Q 100 77 105 67" stroke="var(--text)" stroke-width="3" fill="none" class="logo-mustache"/>
+  
+  <!-- Scissors crossing over R and E - now uses CSS variable -->
+  <g transform="translate(200, 45)" class="logo-scissors">
+    <!-- First scissor blade -->
+    <line x1="-30" y1="-8" x2="30" y2="8" stroke="var(--text)" stroke-width="2"/>
+    <!-- Second scissor blade crossing -->
+    <line x1="30" y1="-8" x2="-30" y2="8" stroke="var(--text)" stroke-width="2"/>
+    <!-- Scissor finger holes -->
+    <circle cx="-15" cy="-4" r="2" fill="var(--card)" stroke="var(--text)" stroke-width="1"/>
+    <circle cx="15" cy="4" r="2" fill="var(--card)" stroke="var(--text)" stroke-width="1"/>
+  </g>
+  
+  <!-- Q with integrated scissors - now uses CSS variable -->
+  <g transform="translate(320, 50)" class="logo-q">
+    <!-- Q Circle -->
+    <circle cx="0" cy="0" r="18" fill="var(--text)"/>
+    <path d="M 10 10 L 18 18" stroke="var(--text)" stroke-width="3" fill="none"/>
+    
+    <!-- Scissors integrated into Q -->
+    <g transform="translate(0, 0)">
+      <!-- First scissor blade -->
+      <line x1="-12" y1="-12" x2="12" y2="12" stroke="var(--card)" stroke-width="2"/>
+      <!-- Second scissor blade crossing -->
+      <line x1="12" y1="-12" x2="-12" y2="12" stroke="var(--card)" stroke-width="2"/>
+      <!-- Scissor finger holes -->
+      <circle cx="-6" cy="-6" r="2" fill="var(--card)"/>
+      <circle cx="6" cy="6" r="2" fill="var(--card)"/>
+    </g>
+  </g>
+</svg> 

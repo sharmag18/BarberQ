@@ -8,7 +8,6 @@ import com.barberq.dto.BarberLoginRequest;
 import com.barberq.service.UserService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import jakarta.validation.Valid;
 
 @RestController
 @RequestMapping("/api/auth")

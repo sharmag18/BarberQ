@@ -29,19 +29,19 @@ function Login() {
   };
 
   return (
-    <div style={{ maxWidth: 400, margin: '2rem auto', background: '#fff', padding: '2rem', borderRadius: 8, boxShadow: '0 2px 8px #eee' }}>
+    <div className="card" style={{ maxWidth: 400, margin: '2rem auto' }}>
       <h2>Login</h2>
       <form onSubmit={handleSubmit}>
         <div style={{ marginBottom: '1rem' }}>
           <label>Username</label>
-          <input type="text" value={username} onChange={e => setUsername(e.target.value)} required style={{ width: '100%', padding: 8, marginTop: 4 }} />
+          <input type="text" value={username} onChange={e => setUsername(e.target.value)} required />
         </div>
         <div style={{ marginBottom: '1rem' }}>
           <label>Password</label>
-          <input type="password" value={password} onChange={e => setPassword(e.target.value)} required style={{ width: '100%', padding: 8, marginTop: 4 }} />
+          <input type="password" value={password} onChange={e => setPassword(e.target.value)} required />
         </div>
-        {error && <div style={{ color: 'red', marginBottom: '1rem' }}>{error}</div>}
-        <button type="submit" style={{ width: '100%', padding: 10, background: '#2d2d2d', color: '#fff', border: 'none', borderRadius: 4 }}>Login</button>
+        {error && <div style={{ color: 'var(--error)', marginBottom: '1rem' }}>{error}</div>}
+        <button type="submit" className="button" style={{ width: '100%' }}>Login</button>
       </form>
     </div>
   );

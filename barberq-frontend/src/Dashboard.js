@@ -10,10 +10,10 @@ function Dashboard() {
   };
 
   return (
-    <div style={{ maxWidth: 600, margin: '2rem auto', background: '#fff', padding: '2rem', borderRadius: 8, boxShadow: '0 2px 8px #eee' }}>
+    <div className="card" style={{ maxWidth: 600, margin: '2rem auto' }}>
       <h2>Dashboard</h2>
       <p>Welcome to your dashboard!</p>
-      <button onClick={handleLogout} style={{ padding: 10, background: '#2d2d2d', color: '#fff', border: 'none', borderRadius: 4 }}>Logout</button>
+      <button onClick={handleLogout} className="button">Logout</button>
     </div>
   );
 }
