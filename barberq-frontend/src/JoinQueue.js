@@ -2,6 +2,12 @@ import React, { useState, useEffect } from 'react';
 
 const services = ['Haircut', 'Shave', 'Beard Trim', 'Hair Color'];
 
+const demoBarbers = [
+  { id: 'demo1', name: 'Mukesh' },
+  { id: 'demo2', name: 'Saleem' },
+  { id: 'demo3', name: 'Raj' }
+];
+
 function JoinQueue() {
   const [barbers, setBarbers] = useState([]);
   const [selectedBarber, setSelectedBarber] = useState('');
@@ -15,8 +21,8 @@ function JoinQueue() {
   useEffect(() => {
     fetch('http://localhost:8080/api/barbers')
       .then(res => res.json())
-      .then(data => setBarbers(data))
-      .catch(() => setError('Failed to load barbers'));
+      .then(data => setBarbers(data.length ? data : demoBarbers))
+      .catch(() => setBarbers(demoBarbers));
   }, []);
 
   const handleJoin = async (e) => {

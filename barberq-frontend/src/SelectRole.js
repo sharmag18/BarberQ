@@ -126,7 +126,7 @@ function SelectRole() {
         {/* Barber Card */}
         <div 
           className="role-card barber-card"
-          onClick={() => navigate('/barber')}
+          onClick={() => navigate('/barber/login')}
           style={{
             flex: 1,
             background: 'var(--card)',
